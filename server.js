@@ -1,13 +1,14 @@
 const express = require('express')
-var cors = require('cors')
+const bodyParser = require('body-parser');
+const port = process.env.PORT || 8000
 const app = express()
-const port = 8005 // updated from 3000
-const path = require("path");
+
+//This is a test
 
 //middleware
-app.use(cors())
-app.use(express.static(path.join(__dirname, "/")));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: false }));
+
 
 // app.get('/', (req, res) => res.send('proxy server'))
-
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
