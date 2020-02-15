@@ -3,7 +3,7 @@ const path = require('path')
 module.exports = {
   development: {
       client: "postgresql",
-      connection: 'postgres://postgres:Royoli1983@localhost:5432/SDC_PostgresDB',
+      connection: 'postgres://postgres:password@localhost:5432/royolivarez',
       // connection: {
       //   host: 'localhost',
       //   user: 'postgres',
