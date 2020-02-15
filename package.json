@@ -1,0 +1,31 @@
+{
+  "name": "sdc-postgresdb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "knexfile.js",
+  "dependencies": {
+    "async": "^3.1.1",
+    "async-await": "^0.1.40",
+    "await": "^0.2.6",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "knex": "^0.20.9",
+    "path": "^0.12.7",
+    "pg": "^7.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WorkAppropriateCrew/Roy-Proxy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WorkAppropriateCrew/Roy-Proxy/issues"
+  },
+  "homepage": "https://github.com/WorkAppropriateCrew/Roy-Proxy#readme"
+}
